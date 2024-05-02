@@ -1,0 +1,241 @@
+{
+    "meta": {
+      "price_fetch_delay": 0,
+      "after_order_delay": 0,
+      "simulate": false,
+      "slippage": {
+        "mode": "exact",
+        "bps": 2500,
+        "inner_bps": 500
+      },
+      "jito": {
+        "enabled": true,
+        "validator_tip": 898765,
+        "sol_arbs_only": true
+      },
+      "increased_developer_buyback": true,
+      "wrap_mode": "all"
+    },
+    "tokens": [
+      {
+        "mint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+        "name": "USDC",
+        "decimals": 6,
+        "max_accounts": 25,
+        "sizes": [
+          {
+            "min_amt": 950,
+            "max_amt": 950,
+            "trade_size_decimals": 0,
+            "min_profit_onchain": 0,
+            "min_profit_to_send": 15
+          }
+        ],
+        "prio_fee": 35000
+      },
+      {
+        "mint": "2NuQrhnTHj27r2eK3Xv3K2jzW79LaAFouJM6LiVnXG8V",
+        "name": "BRRR",
+        "decimals": 6,
+        "max_accounts": 25,
+        "sizes": [
+          {
+            "min_amt": 50000000,
+            "max_amt": 50000000,
+            "trade_size_decimals": 0,
+            "min_profit_onchain": 0,
+            "min_profit_to_send": 15
+          }
+        ],
+        "prio_fee": 35000
+      }
+      
+    ],
+    "available_tokens": [
+      {
+        "mint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+        "name": "USDC",
+        "decimals": 6,
+        "is_stable": true
+      },
+      {
+        "mint": "So11111111111111111111111111111111111111112",
+        "name": "SOL",
+        "decimals": 9,
+        "is_stable": false
+      },
+     
+      {
+        "mint": "3psH1Mj1f7yUfaD5gh6Zj7epE8hhrMkMETgv5TshQA4o",
+        "name": "boden",
+        "decimals": 9,
+        "is_stable": false
+      },
+      
+      
+      {
+        "mint": "7GCihgDB8fe6KNjn2MYtkzZcRjQy3t9GHdC8uHYmW2hr",
+        "name": "Popcat",
+        "decimals": 9,
+        "is_stable": false
+      },
+      
+      
+      {
+        "mint": "JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN",
+        "name": "JUP",
+        "decimals": 6,
+        "is_stable": false
+      },
+      {
+        "mint": "KMNo3nJsBXfcpJTVhZcXLW7RmTwTt4GVFE7suUBo9sS",
+        "name": "Kamino",
+        "decimals": 6,
+        "is_stable": false
+
+      },
+      {
+        "mint": "5mbK36SZ7J19An8jFochhQS4of8g6BwUjbeCSxBSoWdp",
+        "name": "Michi",
+        "decimals": 6,
+        "is_stable": false
+      },
+      {
+        "mint": "HQ7DaoiUxzC2K1Dr7KXRHccNtXvEYgNvoUextXe8dmBh",
+        "name": "Sloth",
+        "decimals": 6,
+        "is_stable": false
+      },
+      {
+        "mint": "3NZ9JMVBmGAqocybic2c7LQCJScmgsAZ6vQqTDzcqmJh",
+        "name": "wBTC",
+        "decimals": 8,
+        "is_stable": false
+      },
+      {
+        "mint": "Cp69uioTUrgrRmJdiJL5s6VQ2wguu2GosdFbUYym4XZ3",
+        "name": "Pichi",
+        "decimals": 6,
+        "is_stable": false
+      },
+      {
+        "mint": "25hAyBQfoDhfWx9ay6rarbgvWGwDdNqcHsXS3jQ3mTDJ",
+        "name": "Mankei",
+        "decimals": 5,
+        "is_stable": false
+      },
+      {
+        "mint": "5oVNBeEEQvYi1cX3ir8Dx5n1P7pdxydbGF2X4TxVusJm",
+        "name": "Infinity",
+        "decimals": 9,
+        "is_stable": false
+      },
+      {
+        "mint": "EKpQGSJtjMFqKZ9KQanSqYXRcF8fBopzLHYxdM65zcjm",
+        "name": "wif",
+        "decimals": 6,
+        "is_stable": false
+      },
+      {
+        "mint": "667w6y7eH5tQucYQXfJ2KmiuGBE8HfYnqqbjLNSw7yww",
+        "name": "Andy",
+        "decimals": 6,
+        "is_stable": false
+      },
+      {
+        "mint": "WENWENvqqNya429ubCdR81ZmD69brwQaaBYY6p3LCpk",
+        "name": "WEN",
+        "decimals": 5,
+        "is_stable": false
+      },
+      {
+        "mint": "69kdRLyP5DTRkpHraaSZAQbWmAwzF9guKjZfzMXzcbAs",
+        "name": "ACOIN",
+        "decimals": 6,
+        "is_stable": false
+      },
+      {
+        "mint": "DezXAZ8z7PnrnRJjz3wXBoRgixCa6xjnB7YaB1pPB263",
+        "name": "Bonk",
+        "decimals": 5,
+        "is_stable": false
+      },
+      {
+        "mint": "7vfCXTUXx5WJV5JADk17DUJ4ksgau7utNKj4b963voxs",
+        "name": "WETH",
+        "decimals": 8,
+        "is_stable": false
+      },
+      {
+        "mint": "FLUXBmPhT3Fd1EDVFdg46YREqHBeNypn1h4EbnTzWERX",
+        "name": "FLUXB",
+        "decimals": 5,
+        "is_stable": false
+      },
+      {
+        "mint": "rndrizKT3MK1iimdxRdWabcF7Zg7AR5T4nud4EkHBof",
+        "name": "RNDER",
+        "decimals": 8,
+        "is_stable": false
+      },
+      {
+        "mint": "orcaEKTdK7LKz57vaAYr9QeNsVEPfiu6QeMU1kektZE",
+        "name": "ORCA",
+        "decimals": 6,
+        "is_stable": false
+      },
+      {
+        "mint": "HZ1JovNiVvGrGNiiYvEozEVgZ58xaU3RKwX8eACQBCt3",
+        "name": "PYTH",
+        "decimals": 6,
+        "is_stable": false
+      },
+      {
+        "mint": "FGf1Us3kqu9AXu2x1yWKfiKE8uSx42ACvRiUrbuAodzq",
+        "name": "CGPT",
+        "decimals": 9,
+        "is_stable": false
+      },
+      {
+        "mint": "AZsHEMXd36Bj1EMNXhowJajpUXzrKcK57wW4ZGXVa7yR",
+        "name": "GUAC",
+        "decimals": 5,
+        "is_stable": false
+      },
+      {
+        "mint": "mb1eu7TzEc71KxDpsmsKoucSSuuoGLv1drys1oP2jh6",
+        "name": "MOBILE",
+        "decimals": 6,
+        "is_stable": false
+      },
+      {
+        "mint": "6ogzHhzdrQr9Pgv6hZ2MNze7UrzBMAFyBBWUYp1Fhitx",
+        "name": "RETARDIO",
+        "decimals": 6,
+        "is_stable": false
+      },
+      {
+        "mint": "FU1q8vJpZNUrmqsciSjp8bAKKidGsLmouB8CBdf8TKQv",
+        "name": "TREMP",
+        "decimals": 9,
+        "is_stable": false
+      },
+      {
+        "mint": "FS66v5XYtJAFo14LiPz5HT93EUMAHmYipCfQhLpU4ss8",
+        "name": "SMOG",
+        "decimals": 6,
+        "is_stable": false
+      },
+      {
+        "mint": "2FprjEk4MTSY9CxpKuENbGDdy69R15GHhtHpG5Durdbq",
+        "name": "Horsemeat",
+        "decimals": 9,
+        "is_stable": false
+
+    
+      }
+    
+    
+      
+    ]
+  }

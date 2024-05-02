@@ -1,0 +1,138 @@
+{
+    "meta": {
+      "price_fetch_delay": 0,
+      "after_order_delay": 0,
+      "simulate": false,
+      "slippage": {
+        "mode": "exact",
+        "bps": 2500,
+        "inner_bps": 500
+      },
+      "jito": {
+        "enabled": true,
+        "validator_tip": 898765,
+        "sol_arbs_only": true
+      },
+      "increased_developer_buyback": true,
+      "wrap_mode": "all"
+    },
+    "tokens": [
+      {
+        "mint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+        "name": "USDC",
+        "decimals": 6,
+        "max_accounts": 25,
+        "sizes": [
+          {
+            "min_amt": 950,
+            "max_amt": 950,
+            "trade_size_decimals": 0,
+            "min_profit_onchain": 0,
+            "min_profit_to_send": 0
+
+            
+          }
+      
+        ],
+        "prio_fee": 35000
+      }
+      
+    ],
+    "available_tokens": [
+      {
+        "mint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+        "name": "USDC",
+        "decimals": 6,
+        "is_stable": true
+      },
+      {
+        "mint": "So11111111111111111111111111111111111111112",
+        "name": "SOL",
+        "decimals": 9,
+        "is_stable": false
+      },
+     
+      {
+        "mint": "3psH1Mj1f7yUfaD5gh6Zj7epE8hhrMkMETgv5TshQA4o",
+        "name": "boden",
+        "decimals": 9,
+        "is_stable": false
+      },
+      
+      
+      {
+        "mint": "7GCihgDB8fe6KNjn2MYtkzZcRjQy3t9GHdC8uHYmW2hr",
+        "name": "Popcat",
+        "decimals": 9,
+        "is_stable": false
+      },
+      
+      
+      {
+        "mint": "JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN",
+        "name": "JUP",
+        "decimals": 6,
+        "is_stable": false
+      },
+      {
+        "mint": "KMNo3nJsBXfcpJTVhZcXLW7RmTwTt4GVFE7suUBo9sS",
+        "name": "Kamino",
+        "decimals": 6,
+        "is_stable": false
+
+      },
+      {
+        "mint": "5mbK36SZ7J19An8jFochhQS4of8g6BwUjbeCSxBSoWdp",
+        "name": "Michi",
+        "decimals": 6,
+        "is_stable": false
+      },
+      {
+        "mint": "HQ7DaoiUxzC2K1Dr7KXRHccNtXvEYgNvoUextXe8dmBh",
+        "name": "Sloth",
+        "decimals": 6,
+        "is_stable": false
+      },
+      {
+        "mint": "3NZ9JMVBmGAqocybic2c7LQCJScmgsAZ6vQqTDzcqmJh",
+        "name": "wBTC",
+        "decimals": 8,
+        "is_stable": false
+      },
+      {
+        "mint": "Cp69uioTUrgrRmJdiJL5s6VQ2wguu2GosdFbUYym4XZ3",
+        "name": "Pichi",
+        "decimals": 6,
+        "is_stable": false
+      },
+      {
+        "mint": "25hAyBQfoDhfWx9ay6rarbgvWGwDdNqcHsXS3jQ3mTDJ",
+        "name": "Mankei",
+        "decimals": 5,
+        "is_stable": false
+      },
+      {
+        "mint": "5oVNBeEEQvYi1cX3ir8Dx5n1P7pdxydbGF2X4TxVusJm",
+        "name": "Infinity",
+        "decimals": 9,
+        "is_stable": false
+      },
+      {
+        "mint": "EKpQGSJtjMFqKZ9KQanSqYXRcF8fBopzLHYxdM65zcjm",
+        "name": "wif",
+        "decimals": 6,
+        "is_stable": false
+      },
+      {
+        "mint": "667w6y7eH5tQucYQXfJ2KmiuGBE8HfYnqqbjLNSw7yww",
+        "name": "Andy",
+        "decimals": 6,
+        "is_stable": false
+
+    
+      }
+    
+    
+      
+    ]
+  }

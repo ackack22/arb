@@ -28,10 +28,10 @@
             "max_amt": 950,
             "trade_size_decimals": 0,
             "min_profit_onchain": 0,
-            "min_profit_to_send": 15
+            "min_profit_to_send": 0
           }
         ],
-        "prio_fee": 35000
+        "prio_fee": 25000
       },
       {
         "mint": "2NuQrhnTHj27r2eK3Xv3K2jzW79LaAFouJM6LiVnXG8V",
